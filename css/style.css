@@ -145,6 +145,7 @@ body {
 }
 .swiper__card__img {
     text-align: center;
+    background-color: #F8F8F8;
     margin-bottom: 22px;
 }
 .swiper__card__title,
