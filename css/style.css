@@ -150,6 +150,7 @@ body {
 .swiper__card__img {
     position: relative;
     height: 434px;
+    min-width: 345px;
     margin-bottom: 22px;
 }
 .swiper__card__img img {
