@@ -1,0 +1,401 @@
+@import "./reset.css";
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+html {
+    scroll-behavior: smooth;
+}
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: #fff;
+    color: #000;
+    text-align: center;
+}
+[class*="__container"] {
+    max-width: 1370px;
+    padding: 0px 15px;
+    margin: 0 auto;
+}
+.button {
+    font-size: 0.8125rem;
+    letter-spacing: 0.0875rem;
+    text-transform: uppercase;
+    color: #000;
+}
+.title {
+    font-size: 2.6875rem;
+}
+/* ===================== HEADER ===================== */
+
+.header {
+    background-color: #fff;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 20;
+}
+.header__content {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 25px 0px;
+}
+.header__list {
+    display: flex;
+    gap: 24px;
+}
+.header__list__item a,
+.header__cart__btn a {
+    text-transform: uppercase;
+    font-size: 0.9375rem;
+    letter-spacing: 0.0875rem;
+    color: #000;
+}
+.header__cart__btn {
+    margin-right: 31px;
+}
+
+/* ===================== MAIN ===================== */
+
+.main {
+    background-color: #000;
+    margin: 69px 0px 0px 0px;
+    background: url("../img/main/image.jpg") 50% 0/cover no-repeat;
+}
+.main__content {
+    height: 504px;
+    padding: 0px 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+}
+.main__title {
+    
+    margin-bottom: 12px;
+}
+.main__subtitle {
+    font-size: 0.9375rem;
+    letter-spacing: 0.05rem;
+    margin-bottom: 28px;
+}
+.main__button {
+    color: #fff;
+}
+
+/* ===================== DESIGN ===================== */
+
+.design {
+    margin-bottom: 130px;
+}
+.design__text {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 80px 0px 128px 0px;
+}
+.design__title {
+    margin-bottom: 24px;
+}
+.design__subtitle {
+    font-size: 1.0625rem;
+    letter-spacing: 0.05rem;
+    color: #A0A0A0;
+    margin-bottom: 26px;
+}
+.design__cards {
+    display: flex;
+    gap: 1.86%;
+    justify-content: space-between;
+}
+.card__img {
+    margin-bottom: 48px;
+}
+.card__title {
+    font-size: 1.6875rem;
+    margin-bottom: 24px;
+}
+
+/* ===================== PRODUCTS ===================== */
+
+.products {
+    margin-bottom: 95px;
+}
+.product__content {
+    padding: 0px 15px;
+}
+.product__title {
+    font-size: 2.0625rem;
+    margin-bottom: 16px;
+}
+.product__subtitle {
+    font-size: 0.9375rem;
+    letter-spacing: 0.05rem;
+    margin-bottom: 80px;
+    color: #A0A0A0;
+}
+.swiper__slide {
+    text-align: left;
+/*     padding-right: 25px; */
+}
+.swiper__cards {
+    display: flex;
+    justify-content: center;
+}
+.swiper__card {
+    user-select: none;
+/*     padding-right: 25px; */
+}
+.swiper__card__img {
+    margin-bottom: 22px;
+}
+.swiper__card__title,
+.swiper__card__price {
+    line-height: 1.3125rem;
+    font-size: 0.8125rem;
+    letter-spacing: 0.0437rem;
+    color: #A0A0A0;
+}
+.swiper-container.product__swiper {
+    overflow: hidden;
+}
+.swiper__wrapper {
+    position: relative;
+}
+.pagination__swiper {
+    top: -40px;
+}
+.pagination__swiper .swiper-pagination-bullet {
+    border-radius: 0;
+    width: 7px;
+    height: 7px;
+    background-color: #000;
+}
+
+/* ===================== INSPIRATION ===================== */
+
+.inspiration {
+    color: #fff;
+    background: url("../img/inspiration/image.jpg") 50% 0/cover no-repeat;
+    margin: 0px 0px 116px 0px;
+}
+.inspiration__content {
+    height: 504px;
+    padding: 0px 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.inspiration__title {
+    font-size: 4.125rem;
+    line-height: 4.375rem;
+    margin-bottom: 14px;
+}
+.inspiration__subtitle {
+    margin-bottom: 30px;
+    font-size: 0.875rem;
+}
+.inspiration__button {
+    color: #fff;
+}
+
+/* ===================== HARD-WAY ===================== */
+
+.hard-way {
+    margin: 0px 0px 42px 0px;
+}
+.hard-way__content {
+    padding: 0px 15px;
+}
+.hard-way__title {
+    font-size: 2.125rem;
+    margin-bottom: 24px;
+}
+.hard-way__subtitle {
+    max-width: 777px;
+    margin: 0 auto;
+    color: #A0A0A0;
+    line-height: 1.5rem;
+    letter-spacing: 0.05rem;
+    margin-bottom: 24px;
+}
+.hard-way__img {
+    max-width: 1052px;
+    margin: 0 auto;
+}
+
+/* ===================== MAKE-WORK ===================== */
+
+.make-work {
+    margin-bottom: 124px;
+}
+.make-work__content {
+    padding: 0px 15px;
+}
+.make-work__title {
+    font-size: 2.125rem;
+    margin-bottom: 24px;
+}
+.make-work__subtitle {
+    letter-spacing: 0.05rem;
+    color: #A0A0A0;
+    line-height: 24px;
+    max-width: 789px;
+    margin: 0 auto;
+    margin-bottom: 80px;
+}
+.make-work__cards {
+    display: grid;
+    justify-content: center;
+    grid-template-columns: repeat(auto-fit, 196px);
+    grid-column-gap: 24.5px;
+    grid-row-gap: 27.5px;
+}
+
+/* ===================== JOIN-US ===================== */
+
+.join-us__title {
+    font-size: 2.25rem;
+    margin-bottom: 44px;
+}
+.join-us__button {
+    display: inline-block;
+    margin-bottom: 121px;
+}
+
+/* ===================== DESIGN-BOTTOM ===================== */
+
+.design-bottom {
+    margin-bottom: 40px;
+}
+.design-bottom__content {
+    background-color: #9AA8B1;
+    color: #fff;
+    padding: 120px 0px;
+}
+.design-bottom__img {
+    max-width: 40px;
+    margin: 0px auto 24px auto;
+}
+.design-bottom__title {
+    line-height: 3.625rem;
+    margin-bottom: 24px;
+}
+.design-bottom__subtitle {
+    letter-spacing: 0.05rem;
+    font-size: 0.875rem;
+    line-height: 1.5rem;
+}
+
+/* ===================== FOOTER ===================== */
+
+.footer {
+    background-color: #F9F9F9;
+}
+.footer__content {
+    position: relative;
+    text-align: left;
+}
+.footer__info {
+    padding: 76px 0px 84px 0px;
+    display: flex;
+}
+.footer__list {
+    margin-right: 14px;
+}
+.footer__list__item a {
+    font-size: 1.375rem;
+    color: #000;
+    line-height: 1.5rem;
+}
+.footer__list__item:not(:last-child) {
+    margin-bottom: 26px;
+}
+.sign-up {
+    padding: 0px 0px 90px 0px;
+    border-bottom: 1px solid #000;
+}
+.sign-up__title {
+    font-size: 1.375rem;
+    margin-bottom: 24px;
+}
+.sign-up__subtitle {
+    max-width: 360px;
+    color: #A0A0A0;
+}
+.links__list {
+    display: flex;
+    justify-content: right;
+    gap: 40px;
+    padding: 0px 0px 28px 0px;
+}
+.links__list__item a {
+    color: #707A7F;
+}
+.links__list__item:last-child a{
+    color: #000;
+}
+.go-up__btn {
+    position: absolute;
+    top: 0;
+    right: 0;
+    padding: 22px 30px;
+    background-color: #000;
+    color: #fff;
+}
+
+/* ===================== MEDIA ===================== */
+
+@media (max-width: 767.98px) {
+    .design__cards {
+        flex-direction: column;
+        gap: 30px;
+    }
+    .card__img {
+        margin-bottom: 24px;
+    }
+    .card__title {
+        margin-bottom: 14px;
+    }
+}
+@media (max-width: 563px) {
+    .go-up__btn {
+        top: 60%;
+    }
+}
+@media (max-width: 500px) {
+    .make-work__cards {
+        grid-template-columns: repeat(2, minmax(135px, 196px));
+        grid-column-gap: 18.5px;
+        grid-row-gap: 17.5px;
+    }
+    .header__cart__btn {
+        margin-right: 0px;
+    }
+    .header__logo {
+        max-width: 128px;
+    }
+}
+@media (max-width: 424.98px) {
+    .links__list {
+        gap: 20px;
+    }
+    .footer__list__item a {
+        font-size: 1.25rem;
+    }
+    .header__logo {
+        display: none;
+    }
+}
+@media (max-width: 360px) {
+    .go-up__btn {
+        top: 55%;
+    }
+    .links__list {
+        flex-direction: column;
+        text-align: center;
+    }
+}
