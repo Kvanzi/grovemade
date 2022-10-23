@@ -123,6 +123,8 @@ body {
 .products {
     margin-bottom: 95px;
 }
+.product__content {
+}
 .product__title {
     font-size: 2.0625rem;
     margin-bottom: 16px;
@@ -146,7 +148,15 @@ body {
 /*     padding-right: 25px; */
 }
 .swiper__card__img {
+    position: relative;
+    height: 434px;
     margin-bottom: 22px;
+}
+.swiper__card__img img {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
 }
 .swiper__card__title,
 .swiper__card__price {
