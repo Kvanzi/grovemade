@@ -256,6 +256,9 @@ body {
 
 /* ===================== JOIN-US ===================== */
 
+.join-us__content {
+    padding: 0px 15px;
+}
 .join-us__title {
     font-size: 2.25rem;
     margin-bottom: 44px;
