@@ -142,11 +142,13 @@ body {
 }
 .swiper__card {
     user-select: none;
+    max-width: 310px;
+    margin: 0 auto;
 }
 .swiper__card__img {
     text-align: center;
-    background-color: #F8F8F8;
     margin-bottom: 22px;
+    background-color: #F8F8F8;
 }
 .swiper__card__title,
 .swiper__card__price {
