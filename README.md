@@ -1,5 +1,5 @@
-# Portfolio
-Fully responsive portfolio website with animations. Used: HTML5, CSS3, JavaScript.
+# Grovemade
+Fully responsive website with animations and slider. Used: HTML5, CSS3, JavaScript.
 
 ## Statistics
 ![GitHub repo size](https://img.shields.io/github/repo-size/Kvanzi/Kvanzi-portfolio)
